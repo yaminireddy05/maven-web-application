@@ -8,6 +8,7 @@ node{
 	{
 		sh "${mavenHome}/bin/mvn clean package"
 	}
+	/*
 	stage('ExecuteSonarQubeReport')
 	{
 		sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -32,5 +33,5 @@ node{
 	K.yamini
 	87886798900 ''', cc: 'kyamini221@gmail.com', from: '', replyTo: '', subject: 'Build over ', to: 'kyamini221@gmail.com'
 	}
-
+	*/
 }
